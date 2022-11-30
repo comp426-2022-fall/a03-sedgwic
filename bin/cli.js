@@ -9,6 +9,4 @@ var sides = args.sides || 6;
 var dice = args.dice || 2;
 var rolls = args.rolls || 1;
 
-let rollObj = roll(sides, dice, rolls);
-
-console.log(rollObj);
+console.log(roll(sides, dice, rolls));
